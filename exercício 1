@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <meta charset="UTF-8">
+    <head>
+        <title> exercício 1</title>
+    </head>
+    <body>
+            <h1>Exercício 1: 
+                inicia o input com o texto "iniciar teste" e </br>
+                ao clicar no botão altera para "teste finalizado"
+            </h1>
+
+
+            <button id="teste" onclick="teste()">botão</button>
+            <input type="text" id="contador" value="iniciar teste">
+
+            <script>
+                function teste(){
+                    let nome = "teste finalizado";
+                    document.getElementById("contador").value = nome;
+                }
+
+            </script>
+    </body>
+
+   
+</html>
